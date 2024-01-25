@@ -67,3 +67,16 @@ h3 {
   color: #3498db;
 }
 
+/* Estilização do footer */
+
+.footer {
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+.footer em {
+  font-style: italic;
+}
+
