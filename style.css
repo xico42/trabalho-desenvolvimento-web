@@ -81,3 +81,24 @@ h3 {
   font-style: italic;
 }
 
+/* Estilização da página de portfólio */
+
+.portfolio-content {
+  display: flex;
+  flex-direction: column; /* Muda para o layout de coluna */
+  gap: 20px;
+}
+
+.portfolio-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.portfolio-item button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
