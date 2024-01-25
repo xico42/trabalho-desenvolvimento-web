@@ -42,13 +42,13 @@ h3 {
 }
 
 .menu {
-  text-align: center; /* Center the content horizontally */
+  text-align: center; /* Tudo centralizado */
 }
 
 .menu img {
-  width: 100px; /* Adjust the width of the image */
+  width: 100px; /* Largura da imagem */
   height: auto;
-  margin-bottom: 10px; /* Add some spacing between the image and menu items */
+  margin-bottom: 10px; /* spacing entre a imagem da sidebar e os items */
 }
 
 .menu ul {
@@ -94,11 +94,34 @@ h3 {
   padding: 10px;
 }
 
-.portfolio-item button {
+.button {
   margin-top: 10px;
   padding: 5px 10px;
   background-color: #3498db;
   color: #fff;
   border: none;
   cursor: pointer;
+}
+
+/* Estilização do formulário da página de contato */
+
+.form-content {
+  max-width: 400px;
+}
+
+.form-field {
+  margin-bottom: 15px;
+}
+
+/* Cada label fica acima do input */
+.form-field label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-field input,
+.form-field textarea {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
 }
